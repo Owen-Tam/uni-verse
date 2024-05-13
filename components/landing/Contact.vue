@@ -7,7 +7,7 @@
         let you know if there are any updates!
       </p>
       <div class="icon-container">
-        <a target="_blank" href="#"
+        <a target="_blank" href="mailto:universehk2024@gmail.com"
           ><img src="~/assets/images/hero/mail_icon.svg"
         /></a>
         <a target="_blank" href="https://www.instagram.com/uni.versehk/"
@@ -19,9 +19,7 @@
     <div class="container join">
       <h3>Join Uni-verse</h3>
       <p>We are current accepting applications to join our team!</p>
-      <btn-primary
-        href="https://docs.google.com/forms/d/e/1FAIpQLScvqBfYVOWHt3YdhDlBJnONDd-7TiJHZ_U09Na2FLyboFUc0A/viewform?usp=sf_link"
-        isWhite
+      <btn-primary href="https://forms.gle/i2tcT7StVbksxcvt8" isWhite
         >Join Us</btn-primary
       >
     </div>

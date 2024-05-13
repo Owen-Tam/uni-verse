@@ -1,15 +1,14 @@
 <template>
   <nav :class="checked ? 'opened' : ''">
     <div class="logo">
-      <a href="/">Uni-verse</a>
+      <!-- <a href="/">Uni-verse</a> -->
+      <img src="~/assets/images/logo.png" />
     </div>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
       <li>
-        <btn-primary
-          class="join-btn"
-          href="https://docs.google.com/forms/d/e/1FAIpQLScvqBfYVOWHt3YdhDlBJnONDd-7TiJHZ_U09Na2FLyboFUc0A/viewform?usp=sf_link"
+        <btn-primary class="join-btn" href="https://forms.gle/i2tcT7StVbksxcvt8"
           >Join us</btn-primary
         >
       </li>
@@ -45,6 +44,9 @@ a {
 .logo {
   display: flex;
   align-items: center;
+  img {
+    width: 8dvh;
+  }
   a {
     font-weight: 500;
     font-size: 1.4rem;

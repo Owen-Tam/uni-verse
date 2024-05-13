@@ -4,16 +4,17 @@
       <p class="small-text">About Uni-verse</p>
       <h2>Who we are</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Uni-verse is a cross-secondary school student society founded in Januray
+        2024 by a passionate group of students. While Hong Kong is one of the
+        most prosperous and cosmopolitan cities in the world, it is also one
+        that lacks inclusitivity, acceptance and diversity. This is exactly the
+        field in which Uni-verse strives to make an impact. By hosting an array
+        of events, we hope to raise awareness over ethnic, gender and disabled
+        minorities. Join us on our journey to transform Hong Kong into a
+        more diverse city.
       </p>
     </div>
-    <div class="image"></div>
+    <img class="image" src="~/assets/images/logo.png" />
   </section>
 </template>
 <style lang="scss" scoped>
@@ -45,7 +46,7 @@ section {
   }
 }
 .image {
-  background: #ccc;
+  background: #ececec;
   flex: 1;
   height: 45vh;
   border-radius: 50px;

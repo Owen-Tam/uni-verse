@@ -17,7 +17,7 @@
     </div>
 
     <div class="image-container">
-      <div class="image"></div>
+      <img class="image" src="~/assets/images/logo.png" />
     </div>
     <img class="blob" src="~/assets/images/hero/blob.svg" />
   </section>
@@ -53,7 +53,7 @@ section {
   .image {
     width: 90%;
     height: 497px;
-    background: #ccc;
+    // background: #ccc;
     border-radius: 50px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   }
