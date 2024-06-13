@@ -14,7 +14,7 @@
         more diverse city.
       </p>
     </div>
-    <img class="image" src="~/assets/images/logo.png" />
+    <img draggable="false" class="image" src="~/assets/images/old_logo.png" />
   </section>
 </template>
 <style lang="scss" scoped>
@@ -48,7 +48,7 @@ section {
 .image {
   background: #ececec;
   flex: 1;
-  height: 45vh;
+  width: 50px;
   border-radius: 50px;
   transform: translateX(-50px);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);

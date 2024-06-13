@@ -17,7 +17,7 @@
     </div>
 
     <div class="image-container">
-      <img class="image" src="~/assets/images/logo.png" />
+      <img draggable="false" class="image" src="~/assets/images/old_logo.png" />
     </div>
     <img class="blob" src="~/assets/images/hero/blob.svg" />
   </section>

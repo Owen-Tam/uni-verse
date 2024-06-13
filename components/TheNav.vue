@@ -1,12 +1,16 @@
 <template>
   <nav :class="checked ? 'opened' : ''">
     <div class="logo">
-      <!-- <a href="/">Uni-verse</a> -->
-      <img src="~/assets/images/logo.png" />
+      <NuxtLink to="/">
+        <!-- <a href="/">Uni-verse</a> -->
+        <img draggable="false" src="~/assets/images/logo.png" />
+      </NuxtLink>
     </div>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><NuxtLink href="/upcoming">Upcoming</NuxtLink></li>
+
+      <li><NuxtLink href="/#about">About</NuxtLink></li>
+      <li><NuxtLink href="/#contact">Contact</NuxtLink></li>
       <li>
         <btn-primary class="join-btn" href="https://forms.gle/i2tcT7StVbksxcvt8"
           >Join us</btn-primary
@@ -32,20 +36,17 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 2rem 7vw 2rem 7vw;
-
-  img {
-    width: 100px;
-  }
 }
 a {
   text-decoration: none;
   color: black;
+  scroll-behavior: smooth;
 }
 .logo {
   display: flex;
   align-items: center;
   img {
-    width: 8dvh;
+    height: 5dvh;
   }
   a {
     font-weight: 500;
