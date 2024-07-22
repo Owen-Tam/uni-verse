@@ -1,11 +1,15 @@
 <template>
-  <a target="_blank" :class="isWhite ? 'btn_white' : 'btn_blue'">
+  <a
+    :target="isTargetBlank ? '_blank' : '_self'"
+    :class="isWhite ? 'btn_white' : 'btn_blue'"
+  >
     <slot></slot>
   </a>
 </template>
 <script setup>
 const props = defineProps({
   isWhite: { type: Boolean, default: false },
+  isTargetBlank: { type: Boolean, default: true },
 });
 </script>
 <style lang="scss" scoped>
@@ -17,6 +21,7 @@ a {
   padding: 0.4rem 1.5rem;
   border-radius: 15px;
   text-decoration: none;
+  cursor: pointer;
   transition: background-color 100ms linear;
 }
 a.btn_blue:hover {

@@ -3,10 +3,15 @@
     <div class="event-text">
       <h3 class="event-name">{{ name }}</h3>
       <p class="event-description">{{ description }}</p>
-      <div class="btn-container">
-        <btn-primary class="join_button" :href="regLink">Sign up</btn-primary>
-        <btn-primary class="info_button" isWhite :href="infoLink"
+      <div class="btn-container" v-if="!finished">
+        <btn-primary class="button" :href="regLink">Sign up</btn-primary>
+        <btn-primary class="button" isWhite :href="infoLink"
           >Learn More</btn-primary
+        >
+      </div>
+      <div class="btn-container" v-else>
+        <btn-primary class="button" :isTargetBlank="false" :href="summaryUrl"
+          >Summary</btn-primary
         >
       </div>
     </div>
@@ -29,8 +34,8 @@
 .event-details {
   flex: 1;
 }
-.join_button,
-.info_button {
+.button,
+.button {
   font-size: clamp(1rem, 2vw, 1.2rem);
 }
 h4 {
@@ -61,6 +66,10 @@ const props = defineProps([
   "regLink",
   "infoLink",
   "details",
+  "finished",
+  "id",
 ]);
-const { name, description, regLink, infoLink, details } = toRefs(props);
+const { name, description, regLink, infoLink, details, finished, id } =
+  toRefs(props);
+const summaryUrl = computed(() => `/events/${id.value}`);
 </script>

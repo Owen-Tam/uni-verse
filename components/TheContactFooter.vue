@@ -18,7 +18,7 @@
     <div class="line"></div>
     <div class="container join">
       <h3>Join Uni-verse</h3>
-      <p>We are current accepting applications to join our team!</p>
+      <p>We are currently accepting applications to join our team!</p>
       <btn-primary href="https://forms.gle/i2tcT7StVbksxcvt8" isWhite
         >Join Us</btn-primary
       >

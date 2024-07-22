@@ -7,7 +7,7 @@
       </NuxtLink>
     </div>
     <ul>
-      <li><NuxtLink href="/upcoming">Upcoming</NuxtLink></li>
+      <li><NuxtLink href="/events">Events</NuxtLink></li>
 
       <li><NuxtLink href="/#about">About</NuxtLink></li>
       <li><NuxtLink href="/#contact">Contact</NuxtLink></li>
