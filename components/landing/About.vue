@@ -14,7 +14,7 @@
         more diverse city.
       </p>
     </div>
-    <img draggable="false" class="image" src="~/assets/images/old_logo.png" />
+    <img draggable="false" class="image" src="~/assets/images/about.webp" />
   </section>
 </template>
 <style lang="scss" scoped>
@@ -49,7 +49,9 @@ section {
   background: #ececec;
   flex: 1;
   width: 50px;
+  height: 500px;
   border-radius: 50px;
+  object-fit: cover;
   transform: translateX(-50px);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
