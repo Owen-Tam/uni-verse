@@ -5,8 +5,8 @@
         <span>UNIfication </span> Via Equality, Respect, and Social Empowerment!
       </h1>
       <p class="tagline">
-        Join us on our mission to raise awareness over underrepresented
-        groups in Hong Kong
+        Join us on our mission to raise awareness over underrepresented groups
+        across the globe
       </p>
       <div class="scroll-interaction">
         <div class="scroll-icon">
