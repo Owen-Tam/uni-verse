@@ -4,14 +4,14 @@
       <p class="small-text">About Uni-verse</p>
       <h2>Who we are</h2>
       <p>
-        Uni-verse is a cross-secondary school student society founded in Januray
-        2024 by a passionate group of students. While Hong Kong is one of the
-        most prosperous and cosmopolitan cities in the world, it is also one
-        that lacks inclusitivity, acceptance and diversity. This is exactly the
-        field in which Uni-verse strives to make an impact. By hosting an array
-        of events, we hope to raise awareness over ethnic, gender and disabled
-        minorities. Join us on our journey to transform Hong Kong into a
-        more diverse city.
+        Uni-verse is a global student-led community launched by a passionate
+        group of students from Hong Kong. While there exists many cosmopolitan
+        and prosperous cities, we live in a world that lacks inclusivity,
+        acceptance and diversity. This is exactly the field in which Uni-verse
+        strives to make an impact. By hosting an array of events, we hope to
+        raise awareness over ethnic, gender and disabled minority groups. Join
+        us on our journey to transform the world into a more
+        inclusive place for all!
       </p>
     </div>
     <img draggable="false" class="image" src="~/assets/images/about.webp" />
