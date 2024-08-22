@@ -13,6 +13,7 @@
         us on our journey to transform the world into a more
         inclusive place for all!
       </p>
+      <btnPrimary isNuxtLink class="team-btn" href="/team">Our Team</btnPrimary>
     </div>
     <img draggable="false" class="image" src="~/assets/images/about.webp" />
   </section>
@@ -27,6 +28,7 @@ section {
   background: #fff3d2;
   padding: 8vh 8vw 15vh 8vw;
   width: 65%;
+
   .small-text {
     text-transform: uppercase;
     color: #5c5c5c;
@@ -40,6 +42,7 @@ section {
   p {
     font-size: 1.2rem;
     margin-top: 1rem;
+    margin-bottom: 1.1rem;
     line-height: 1.5;
 
     width: 90%;

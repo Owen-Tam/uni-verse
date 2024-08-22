@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 
     "~/components",
   ],
+  ssr: false,
   css: ["~/assets/css/main.css"],
   app: {
     head: {

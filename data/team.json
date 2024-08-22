@@ -1,0 +1,45 @@
+{
+  "leadership": [
+    {
+      "name": "Brandon Ng",
+      "titles": ["Founder & President"],
+      "imageLink": "brandon"
+    },
+    {
+      "name": "Edwin Tam",
+      "titles": ["Vice-president"],
+      "imageLink": "edwin"
+    },
+    {
+      "name": "Valerie Shek",
+      "titles": ["Head of Relations", "Founder of simplyempower"],
+      "imageLink": "valerie"
+    },
+    {
+      "name": "Darrell Wong",
+      "titles": ["Head of Events Coordination"],
+      "imageLink": "darrell"
+    },
+    {
+      "name": "Jasmine Lui",
+      "titles": ["Head of Design"],
+      "imageLink": "jasmine"
+    },
+    {
+      "name": "Owen Tam",
+      "titles": ["Tech Lead", "Website designer and developer"],
+      "imageLink": "owen"
+    }
+  ],
+  "advisors": [
+    {
+      "name": "Brian Ng",
+      "titles": [
+        "Founder of AlgoEd",
+        "Hong Kong Student of the Year Awardee",
+        "Dartmouth College Graduate"
+      ],
+      "imageLink": "brian"
+    }
+  ]
+}

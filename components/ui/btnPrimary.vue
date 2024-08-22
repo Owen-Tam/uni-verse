@@ -1,5 +1,13 @@
 <template>
+  <NuxtLink
+    v-if="isNuxtLink"
+    target="_self"
+    :class="isWhite ? 'btn_white' : 'btn_blue'"
+  >
+    <slot></slot
+  ></NuxtLink>
   <a
+    v-else
     :target="isTargetBlank ? '_blank' : '_self'"
     :class="isWhite ? 'btn_white' : 'btn_blue'"
   >
@@ -10,10 +18,12 @@
 const props = defineProps({
   isWhite: { type: Boolean, default: false },
   isTargetBlank: { type: Boolean, default: true },
+  isNuxtLink: { type: Boolean, default: false },
 });
 </script>
 <style lang="scss" scoped>
 a {
+  user-select: none;
   border: none;
   color: white;
   font-weight: 400;
