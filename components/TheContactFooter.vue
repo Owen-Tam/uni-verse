@@ -10,7 +10,7 @@
         <a target="_blank" href="mailto:universehk2024@gmail.com"
           ><img src="~/assets/images/hero/mail_icon.svg"
         /></a>
-        <a target="_blank" href="https://www.instagram.com/uni.versehk/"
+        <a target="_blank" href="https://www.instagram.com/uni.verse_ss"
           ><img src="~/assets/images/hero/instagram_icon.svg"
         /></a>
       </div>
