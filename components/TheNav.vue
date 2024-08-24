@@ -10,11 +10,10 @@
       <li><NuxtLink href="/events">Events</NuxtLink></li>
 
       <li><NuxtLink href="/#about">About</NuxtLink></li>
-      <li><NuxtLink href="/team">Team</NuxtLink></li>
+      <li><NuxtLink href="/team">Our Team</NuxtLink></li>
 
-      <li><NuxtLink href="/#contact">Contact</NuxtLink></li>
       <li>
-        <btn-primary class="join-btn" href="https://forms.gle/i2tcT7StVbksxcvt8"
+        <btn-primary isNuxtLink class="join-btn" href="/join"
           >Join us</btn-primary
         >
       </li>

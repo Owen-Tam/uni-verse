@@ -19,9 +19,7 @@
     <div class="container join">
       <h3>Join Uni-verse</h3>
       <p>We are currently accepting applications to join our team!</p>
-      <btn-primary href="https://forms.gle/i2tcT7StVbksxcvt8" isWhite
-        >Join Us</btn-primary
-      >
+      <btn-primary isNuxtLink href="/join" isWhite>Join Us</btn-primary>
     </div>
   </section>
 </template>
