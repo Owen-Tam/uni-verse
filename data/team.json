@@ -1,32 +1,32 @@
 {
   "leadership": [
     {
-      "name": "Brandon Ng",
+      "name": "Brandon",
       "titles": ["Founder & President"],
       "imageLink": "brandon"
     },
     {
-      "name": "Edwin Tam",
+      "name": "Edwin",
       "titles": ["Vice-president"],
       "imageLink": "edwin"
     },
     {
-      "name": "Valerie Shek",
+      "name": "Valerie",
       "titles": ["Head of Relations", "Founder of simplyempower"],
       "imageLink": "valerie"
     },
     {
-      "name": "Darrell Wong",
+      "name": "Darrell",
       "titles": ["Head of Events Coordination"],
       "imageLink": "darrell"
     },
     {
-      "name": "Jasmine Lui",
+      "name": "Jasmine",
       "titles": ["Head of Design"],
       "imageLink": "jasmine"
     },
     {
-      "name": "Owen Tam",
+      "name": "Owen",
       "titles": ["Tech Lead", "Website designer and developer"],
       "imageLink": "owen"
     }

@@ -43,7 +43,7 @@
           >Sign up</btnPrimary
         >
       </div>
-      <img src="/events/voicesunveiled/image3.webp" />
+      <img src="~/assets/images/join/exco.webp" />
     </div>
   </section>
   <section class="area-container">
